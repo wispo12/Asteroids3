@@ -8,7 +8,7 @@ An array probably isn't the best way to keep track of a bunch of asteroids. Arra
 - `Object remove(int index)`
 - `Object set(int index, Object x)`
 - `int size()`
-- 
+
 Steps to completing this assignment
 -----------------------------------
 
