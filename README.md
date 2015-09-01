@@ -1,6 +1,7 @@
-Asteroids (Part 4) Adding bullets and finishing the game
+Asteroids (Part 4) 
 ==================
-
+Adding bullets and finishing the game
+-------------------------------------
 To finish our Asteroids game, we need to write a new class that represents Bullets. We will store the Bullets in an `ArrayList` much like we did with the Asteroids. Once we can shoot the bullets and destroy Asteroids, we will have a working game. Your Asteroids game doesn't have to look like any other. Feel free to modify it in any way you wish.
 
 Suggested steps to completing this assignment
