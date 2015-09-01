@@ -1,21 +1,20 @@
-Asteroids (Part 2)
+Asteroids (Part 3)
 ==================
-Now that we have a functioning space ship, we'll add some asteroids to our game. We'll write an asteroid class that `extends Floater`.
 
+An array probably isn't the best way to keep track of a bunch of asteroids. Arrays have fixed size. You can't easily add or remove asteroids from an array. A better choice might be an `ArrayList`. The `ArrayList` class has a number of useful member methods:
+- `boolean add(Object x)`
+- `void add(int index, Object element)`
+- `Object get(int index)`
+- `Object remove(int index)`
+- `Object set(int index, Object x)`
+- `int size()`
+- 
 Steps to completing this assignment
 -----------------------------------
 
-1. Write an Asteroid class that extends Floater. Make sure it's not inside the curly braces of any other class. You will need to
-write a constructor and the code to "finish" the `abstract` methods in the Floater class
-2. Add a `int` member variable of the `Asteroid` class. It will hold the speed of rotation for each asteroid. Make sure that this is initialized to have an equal probablility of being positive or negative. Also make sure to declare appropriately (should it be `public` or `private`?)
-3. "Override" the `move()` method of the Floater class by writing a new `move()` method in the Asteroid class that also rotates each Asteroid at its own speed
-4. Now add just a single asteroid to your applet. Start by just calling the Asteroid's `show()` function. Make sure you can see it and are happy with its shape before going to the next step.
-5. Now add the code that moves and rotates the Asteroid
-6. Modify your applet code so that you have an array of Asteroids.
-7. Submit the URL of your working program to the school loop locker
+1. Modify your asteroids game to use an `ArrayList` instead of an array of asteroids
+2. Now we'll modify the program so that when our space ship strikes an asteroid, the asteroid is removed from the `ArrayList`. Everytime an asteroid moves find the distance between that asteroid and the ship. Use processing's `dist()` function to find the distance between that asteroid and the ship. If the distance is less than 20 remove the asteroid from the ArrayList. Otherwise, move and rotate the asteroid normally
+3. Submit the same URL for your AsteroidsGame that you submitted for the two previous assignments to the school loop drop box.
 
-Extensions
-----------
 
-If you have extra time, you might try to figure out how to check to see if the ship has collided with an asteroid.
  
