@@ -1,4 +1,4 @@
-Asteroids (Part 3)
+Asteroids (Part 3) Using an `ArrayList`
 ==================
 
 An array probably isn't the best way to keep track of a bunch of asteroids. Arrays have fixed size. You can't easily add or remove asteroids from an array. A better choice might be an `ArrayList`. The `ArrayList` class has a number of useful member methods:
