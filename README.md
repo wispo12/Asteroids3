@@ -25,5 +25,11 @@ Suggested steps to completing this assignment
 9. (Note: I'm not sure if this is still true in the current version of Processing)If your finished program is running slowly, try changing `size(`) to use P2D. For example, `size(600,600,P2D);` creates an applet 600 x 600 that uses processing's fast 2D renderer (which is not as accurate as the default renderer).
 10. Submit the same URL for your AsteroidsGame that you submitted for the three previous assignments to the school loop drop box.
 
-
+Extensions
+----------
+If you have extra time, you might add some extra features to your Asteroids game. Your Asteroids game doesn't have to work or look like any other.
+* Randomly shaped Asteroids
+* Different types of weapons besides bullets
+* Have two Asteroids classes, one large and one small. When a large Asteroid is removed from the ArrayList add two small ones with the same x and y
+* Add a UFO that appears after a while and shoots at the space ship
  
