@@ -27,7 +27,7 @@ Suggested steps to completing this assignment
 
 Extensions
 ----------
-If you have extra time, you might add some extra features to your Asteroids game. Your Asteroids game doesn't have to work or look like any other.
+If you have extra time, you might add some extra features to your Asteroids game. Have fun and be creative!
 * Randomly shaped Asteroids
 * Different types of weapons besides bullets
 * Have two Asteroids classes, one large and one small. When a large Asteroid is removed from the ArrayList add two small ones with the same x and y
