@@ -9,6 +9,7 @@ Suggested steps to completing this assignment
 
 1. Create a new Bullet.pde file in your AsteroidsGame folder. One way to do this is in Sublime is to choose *New | New File* and
 then choose *File | Save as* and name your file `Bullet.pde`.
+2. On line 14 of `index.html` add `Bullet.pde` to the list of files in the `data-processing-sources` and choose *File | Save*.
 2. Write a `Bullet` class that `extends Floater`. 
 2. Write a constructor that takes one ship argument: `Bullet(SpaceShip theShip)` This constructor will:
   - Intialize `myCenterX` and `myCenterY` of the bullet to be the same as the ship.
