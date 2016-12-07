@@ -24,7 +24,7 @@ then choose *File | Save as* and name your file `Bullet.pde`.
 7. One way to check for collisions between the bullets and the Asteroids is to write a loop within a loop (see below for another way). Everytime you move one asteroid you will need:
   - a loop that goes through all the bullets to see if there is a collision between that bullet and the asteroid
   - if there is a collision remove both the asteroid and the bullet from their `ArrayLists` then use `break;` to stop the loop to prevent any index out of bounds execptions.
-8. Alternatively, you might be able to use processing's `get()` to check for collisions.
+8. Alternatively, you might be able to use processing's `get()` function to check for collisions.
 
 10. Submit the same URL for your AsteroidsGame that you submitted for the three previous assignments to the school loop drop box.
 
