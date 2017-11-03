@@ -36,4 +36,5 @@ If you have extra time, you might add some extra features to your Asteroids game
 * Have two Asteroids classes, one large and one small. When a large Asteroid is removed from the ArrayList add two small ones with the same x and y
 * Add a second ship (UFO) that appears after a while and shoots at the space ship
 * Keep track of the score and/or the health of the ship
+* Andrew Ong put a [video](https://www.youtube.com/watch?v=qiRtD9vJ2K8) up of his Asteroids Game from several years ago which has a number of amazing features.
  
