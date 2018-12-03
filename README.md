@@ -11,7 +11,7 @@ Suggested steps to completing this assignment
 then choose *File | Save as* and name your file `Bullet.pde`.
 2. On line 14 of `index.html` add `Bullet.pde` to the list of files in the `data-processing-sources` and choose *File | Save*.
 2. Write a `Bullet` class that `extends Floater` in `Bullet.pde`. 
-2. Write a constructor that takes one ship argument: `Bullet(SpaceShip theShip)` This constructor will use the `public` "getter" (accessor) functions of the `Spaceship` class to:
+2. Write a constructor that takes one ship argument: `Bullet(Spaceship theShip)` This constructor will use the `public` "getter" (accessor) functions of the `Spaceship` class to:
   - Intialize `myCenterX` and `myCenterY` of the bullet to be the same as the ship.
   - Initialize `myPointDirection` of the bullet to be the same as the direction the ship is pointing.
   - convert `myPointDirectio`n to radians with the following code: `double dRadians =myPointDirection*(Math.PI/180);`
