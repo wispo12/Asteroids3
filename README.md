@@ -1,4 +1,4 @@
-Asteroids (Part 4) 
+Asteroids (Part 3) 
 ==================
 Adding bullets and finishing the game
 -------------------------------------
