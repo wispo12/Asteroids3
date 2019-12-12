@@ -12,9 +12,8 @@ then choose *File | Save as* and name your file `Bullet.pde`.
 2. On line 14 of `index.html` add `Bullet.pde` to the list of files in the `data-processing-sources` and choose *File | Save*.
 2. Write a `Bullet` class that `extends Floater` in `Bullet.pde`. 
 2. Write a constructor that takes one ship argument: `Bullet(Spaceship theShip)` This constructor will use the `public` "getter" (accessor) functions of the `Spaceship` class to:
-   - Intialize `myCenterX`, `myCenterY`, `myDirectionX` and `myDirectionY` of the bullet to be the same as the ship.
-   - Initialize `myPointDirection` of the bullet to be the same as the direction the ship is pointing.
-   - `accelerate()` by 6.0 or so to get the bullet moving
+   - Intialize `myCenterX`, `myCenterY`, `myDirectionX`, `myDirectionY` and `myPointDirection` of the bullet to be the same as the ship.
+   - `accelerate()` by 6.0 or so (think of this as a *push* to get the bullet moving)
 3. Override the `show()` method of the `Floater` class so that you can use circular bullets
 4. Now, add just one bullet to your program. First, just draw it to the screen. Make sure you can see it before continuing to the next step.
 5. Now, move the bullet.
