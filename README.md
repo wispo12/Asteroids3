@@ -14,9 +14,7 @@ then choose *File | Save as* and name your file `Bullet.pde`.
 2. Write a constructor that takes one ship argument: `Bullet(Spaceship theShip)` This constructor will use the `public` "getter" (accessor) functions of the `Spaceship` class to:
    - Intialize `myCenterX` and `myCenterY` of the bullet to be the same as the ship.
    - Initialize `myPointDirection` of the bullet to be the same as the direction the ship is pointing.
-   - convert `myPointDirectio`n to radians with the following code: `double dRadians =myPointDirection*(Math.PI/180);`
-   - Initialize `myDirectionX` as `5 * Math.cos(dRadians) +` the directionX of the ship
-   - Initialize `myDirectionY` as `5 * Math.sin(dRadians) +` the directionY of the ship
+   - `accelerate()` by 6.0 or so to get the bullet moving
 3. Override the `show()` method of the `Floater` class so that you can use circular bullets
 4. Now, add just one bullet to your program. First, just draw it to the screen. Make sure you can see it before continuing to the next step.
 5. Now, move the bullet.
